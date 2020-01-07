@@ -1,0 +1,125 @@
+@import url(http://fonts.googleapis.com/css?family=Acme);
+
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700);
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+/**
+ * https://github.com/rhiokim/markdown-css
+ * solarized-light style
+ * made by rhio.kim
+ * powered by http://ethanschoonover.com/solarized
+ */
+.chad {
+  padding: 20px;
+  color: #222222;
+  font-size: 15px;
+  font-family: "Roboto Condensed", "Acme", "Hiragino Sans GB", "Microsoft YaHei", "STHeiti", "SimSun", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", 'Segoe UI', AppleSDGothicNeo-Medium, 'Malgun Gothic', Verdana, Tahoma, sans-serif;
+  background: #ffffff;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+.chad a {
+  color: #3269a0;
+}
+.chad a:hover {
+  color: #4183c4;
+}
+.chad h1 {
+  color: #4183C4;
+  font-family: "Acme";
+}
+.chad h2,
+.chad h3,
+.chad h4,
+.chad h5,
+.chad h6 {
+  font-family: "Acme";
+}
+.chad h2 {
+  color: orange;
+  background-color: yellow;
+  border-bottom: 1px solid #e6e6e6;
+}
+.chad h6 {
+  color: #777;
+}
+.chad hr {
+  border: 10px solid #e6e6e6;
+}
+.chad blockquote {
+  background-color: lightgray;
+}
+.chad p > code,
+.chad li > code,
+.chad td > code,
+.chad h1 > code,
+.chad h2 > code,
+.chad h3 > code,
+.chad h4 > code,
+.chad h5 > code,
+.chad h6 > code,
+.chad blockquote > code {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 85%;
+  background-color: rgba(0, 0, 0, 0.02);
+  padding: 0.2em 0.5em;
+  border: 1px solid #efefef;
+}
+.chad pre > code {
+  font-size: 1em;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+.chad blockquote {
+  border-left: 4px solid #e6e6e6;
+  padding: 0 15px;
+  color: #777;
+}
+.chad table {
+  background-color: #fafafa;
+}
+.chad table tr th,
+.chad table tr td {
+  border: 1px solid #e6e6e6;
+}
+.chad table tr:nth-child(2n) {
+  background-color: #f2f2f2;
+}
+/**
+ * after less
+ */
+/*
+.haroopad {
+	
+  img {
+    .bordered(@border-color, @border-color, @border-color, @border-color);
+    .rounded(3px);
+    .box-shadow(0 0 7px darken(@border-color, 18%));
+
+    &:hover {
+	    -webkit-animation-duration: 1s;
+	    -webkit-animation-delay: .2s;
+    	.pulse;
+    }
+  }
+
+  h1 {
+    -webkit-animation-duration: .5s;
+    -webkit-animation-delay: .2s;
+  	.tada;
+  }
+
+  &>ul {
+  	&>li {
+	    -webkit-animation-duration: .5s;
+	    -webkit-animation-delay: .2s;
+	  	.fadeInLeft;
+	  }
+  }
+
+}
+*/
